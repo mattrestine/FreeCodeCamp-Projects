@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Local Weather App</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+   <div class="container">
+       <div id="titleblock">
+           <h1>Local Weather App</h1>
+       </div>
+       <div id="weatherblock">
+           <h2 id="cityData"></h2>
+           <p id="weatherIcon"></p>
+           <p id="weatherCondition"></p>
+           <p id="currentTemp"></p>
+       </div>
+       <div id="buttonblock">
+          <p>Temperature Setting</p>
+           <button id="fah" onclick="temp('F')" value='F'>Fahrenheit</button>
+           <button id="cel" onclick="temp('C')" value='C'>Celsius</button>
+       </div>
+       <div id="footer">&copy; 2016 M.Rest...</div>
+   </div>
+    <script type="text/javascript" src="script/script.js"></script>
+    <script type="text/javascript" src="script/jquery-3.1.1.js"></script>
+</body>
+</html>

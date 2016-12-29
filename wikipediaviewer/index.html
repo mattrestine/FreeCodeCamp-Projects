@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Wikipedia Viewer</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes|Open+Sans" rel="stylesheet">
+</head>
+<body>
+   <div class="container">
+       <!-- Search Box (USER INPUT) for Wikipedia: https://www.mediawiki.org/wiki/API:Main_page -->
+       <div id="SearchBlock">
+         <div id="wvlogo">
+             <div id="wlogo"><span id="w">W</span></div>
+             <div id="vlogo"><span id="v">V</span></div>
+         </div>
+          <h1>Wikipedia Viewer</h1>
+           <input id="userSearch" placeholder="view this...">
+       </div>
+       <!-- Search Button -->
+       <div id="buttons">
+           <div id="buttonBlock">
+               <button type="submit" id="search">Search</button>
+           </div>
+           <!-- Random Wikipedia Button: https://en.wikipedia.org/wiki/Special:Random -->
+           <div id="randomBlock">
+               <a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank"><span id="r">R</span> andom</a>
+           </div>
+        </div>
+        <div id="listBlock">
+            <ul id="results">
+
+            </ul>
+        </div>
+        <div id="footer">&copy; 2016 M.Rest...</div>
+   </div>
+    <script type="text/javascript" src="script/script.js"></script>
+    <script type="text/javascript" src="script/jquery-3.1.1.js"></script>
+</body>
+</html>

@@ -1,0 +1,88 @@
+body {
+    min-height: 980px;
+    background-color: #000;
+    background-image: linear-gradient(darkslategray 10%, black);
+    background-size: cover;
+}
+.container {
+    width: 980px;
+    margin: 0 auto;
+}
+#SearchBlock {
+    width: 400px;
+    margin: 0 auto;
+    color:white;
+    text-align: center;
+}
+#buttons {
+    text-align: center;
+    width: 400px;
+    margin: 0 auto;
+}
+#buttonBlock {
+    display: inline-block;
+    width: 80px;
+    margin: 0 auto;
+    text-align: center;
+}
+#randomBlock {
+    display: inline-block;
+    width: 80px;
+    margin: 0 auto;
+    margin-top: 5px;
+    text-align: center;
+    color: aliceblue;
+}
+#randomBlock a,
+            a:visited,
+            a:hover,
+            a:active {
+                        color: aliceblue;
+                        text-decoration: none;
+                     }
+#listBlock {
+    margin: 0 auto;
+    padding: 20px;
+}
+#cards {
+    background-color:aliceblue;
+    border: 3px solid #000;
+    list-style: none;
+    margin: 10px auto;
+    padding-left: 10px;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 5px;
+}
+#wvlogo {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    border: 6px solid #fff;
+    border-radius: 5px;
+}
+#wvlogo {
+    font-family: 'Great Vibes', cursive;
+    font-size: 150px;
+}
+#wlogo {
+    color: darkgray;
+    width: 150px;
+    height: 150px;
+}
+#vlogo {
+    color: darkgray;
+    width: 150px;
+    height: 150px;
+    margin-left: 141px;
+}
+#footer {
+    position:absolute;
+    bottom: 30px;
+    width: 980px;
+    text-align: center;
+    margin: 0 auto;
+    color: aliceblue;
+}
+#r {
+    font-family: 'Great Vibes', cursive;
+}

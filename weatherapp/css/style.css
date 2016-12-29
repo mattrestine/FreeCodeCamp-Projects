@@ -1,0 +1,42 @@
+.container {
+  width: 980px;
+  margin: 0 auto;
+}
+#titleblock {
+  width: 300px;
+  margin: 0 auto;
+  text-align: center;
+}
+#weatherblock {
+  width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #89cff5;
+  border: 3px solid #000;
+  border-radius: 30px;
+}
+img {
+  width: 100px;
+  height: auto;
+  border: 5px solid #000;
+  border-radius: 10px;
+  background-color: cornflowerblue;
+}
+#buttonblock {
+  width: 980;
+  text-align: center;
+}
+#currentTemp {
+  font-size: 3.5em;
+}
+#weatherCondition {
+  font-size: 2.0em;
+}
+#footer {
+    position:absolute;
+    bottom: 30px;
+    width: 980px;
+    text-align: center;
+    margin: 0 auto;
+    
+}
